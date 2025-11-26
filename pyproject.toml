@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=77.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple-inotify"
+version = "0.0.1"
+authors = [
+	{ name = "USN484259", email = "USN484259@outlook.com" },
+]
+description = "Very thin inotify(7) wrapper for Linux."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+keywords = ["inotify"]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Operating System :: POSIX :: Linux",
+	"Topic :: System :: Operating System",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/USN484259/simple-inotify"
+
+
+[tool.setuptools]
+packages = [
+	"simple_inotify"
+]
